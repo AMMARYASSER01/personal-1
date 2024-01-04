@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&family=Raleway:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <title>AMMAR YASSER</title>
+    <link rel="stylesheet" href="./styles/style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <video class="video-loop" autoplay loop muted>
+        <source src="/video/video-loop.mp4" type="video/mp4" />
+      </video>
+      <header class="header">
+        <label class="burger-menu" for="menu">
+          <div class="burger-menu__bar"></div>
+          <div class="burger-menu__bar"></div>
+          <div class="burger-menu__bar"></div>
+        </label>
+        <input id="menu" class="burger-menu__checkbox" type="checkbox" />
+
+        <nav class="navigation">
+          <ul class="navigation__list">
+            <li>
+              <a href="#bio" class="navigation__link navigation__bio">Bio</a>
+            </li>
+            <li>
+              <a href="#skills" class="navigation__link navigation__skills"
+                >Skills</a
+              >
+            </li>
+            <li>
+              <a href="#projects" class="navigation__link navigation__projects"
+                >Projects</a
+              >
+            </li>
+            <li>
+              <a href="#clients" class="navigation__link navigation__clients"
+                >My Clients</a
+              >
+            </li>
+            <li>
+              <a href="#contact" class="navigation__link navigation__contact"
+                >Contact</a
+              >
+            </li>
+          </ul>
+        </nav>
+        <div class="toggle">
+          <h3 class="toggle__title">Switch Theme</h3>
+          <input
+            type="checkbox"
+            name="toggle checkbox"
+            id="toggle"
+            class="toggle__checkbox"
+          />
+          <label for="toggle" class="toggle__label"></label>
+        </div>
+      </header>
+      <section id="bio" class="bio section">
+        <div class="bio__data">
+          <h1 class="bio__heading">
+            Hi there, I'm an architectural engineer and a software engineer.
+          </h1>
+          <p class="bio__objective">
+            Hi there I'm <span class="bio__name">Ammar Yasser</span> a
+            co-founder of
+            <a
+              href="https://www.instagram.com/desiiigner1/"
+              class="desiiigner__link"
+              >DESIIINER Studio</a
+            >
+            software engineer & Architect that publish my work at
+            <a
+              href="https://www.facebook.com/designer0100"
+              class="bio__facebook"
+              >Facebook</a
+            >
+            <a
+              href="https://www.instagram.com/desiiigner1/"
+              class="bio__instagram"
+              >Instagram</a
+            >
+            <a
+              href="https://www.linkedin.com/in/ammar-yasser-8672ba188/"
+              class="bio__linkedin"
+              >Iinkedin</a
+            >
+          </p>
+          <a href="#contact" class="bio__links say-hi-link navigation__contact"
+            >Say Hi</a
+          >
+          <a href="./new final.jpg" class="bio__links cv-link"
+            >Download cv <span class="bio__arrow">↓</span></a
+          >
+        </div>
+        <div class="bio__my-pic">
+          <img
+            class="bio__pic"
+            src="img/my-photo.jpg"
+            alt="image of ammar yasser"
+          />
+        </div>
+      </section>
+      <section id="skills" class="skills section section--with-bg">
+        <h2 class="h2-heading">Skills</h2>
+        <ul class="skills__list">
+          <li class="skills__items">
+            <h2 class="skill__title">HTML</h2>
+            <span class="skills__years">2 years</span>
+          </li>
+          <li class="skills__items">
+            <h2 class="skill__title">CSS</h2>
+            <span class="skills__years">2 years</span>
+          </li>
+          <li class="skills__items">
+            <h2 class="skill__title">Javascript</h2>
+            <span class="skills__years">2 years</span>
+          </li>
+          <li class="skills__items">
+            <h2 class="skill__title">React</h2>
+            <span class="skills__years">2 years</span>
+          </li>
+          <li class="skills__items">
+            <h2 class="skill__title">Redux</h2>
+            <span class="skills__years">1 year</span>
+          </li>
+          <li class="skills__items">
+            <h2 class="skill__title">React Testing Library</h2>
+            <span class="skills__years">1 year</span>
+          </li>
+        </ul>
+      </section>
+      <section id="projects" class="projects section">
+        <h2 class="h2-heading">
+          MY FEATURED <br />
+          PROJECTS
+        </h2>
+        <div class="projects__project1-img">
+          <img
+            src="img/project-1.jpg"
+            alt="project-1.jpg"
+            class="project__img"
+          />
+        </div>
+        <div class="porject__data">
+          <h3 class="project__heading">
+            Quran Tab <br />
+            Extension
+          </h3>
+          <p class="porject__objective">
+            Quran Tab is an Islamic new tab page that will keep you inspired by
+            a verse from the Quran every time you open a new tab that helps you
+            achieve your "Khatma" and keeps you connected with the words of
+            Allah.
+          </p>
+          <a href="#" class="project__link">Chrome Link</a>
+          <span>-</span>
+          <a href="#" class="project__link">Edge Link</a>
+        </div>
+        <!-- -------- -->
+
+        <div class="porject__data">
+          <h3 class="project__heading">
+            Quran Station <br />
+            Extension
+          </h3>
+          <p class="porject__objective">
+            Small extension that gives you access to over 100 stations to help
+            you listen to the Quran from your favorite reciters easily
+            Quran-Station has over 100 stations to help you listen to the Quran
+            from your favorite reciters in a quick and easy way..
+          </p>
+          <a href="#" class="project__link">Chrome Link</a>
+          <span>-</span>
+          <a href="#" class="project__link">Edge Link</a>
+          <span>-</span>
+          <a href="#" class="project__link">Firefox Link</a>
+        </div>
+        <div class="projects__project2-img">
+          <img
+            src="img/project-2.jpg"
+            alt="project-2.jpg"
+            class="project__img"
+          />
+        </div>
+      </section>
+      <section id="clients" class="clients section section--with-bg">
+        <h2 class="h2-heading">
+          WHAT MY <br />
+          CLIENTS SAYS.
+        </h2>
+        <div class="clients__opinions">
+          <div class="opinions__wrapper">
+            <p class="clients__opinion">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio
+              architecto quae perspiciatis ipsam placeat expedita libero quo
+              adipisci dignissimos sequi necessitatibus, a, quidem quasi ea
+              consequatur. Voluptates officia saepe eius.
+            </p>
+            <p class="clients__opinion">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem
+              dolores quidem beatae veniam necessitatibus molestias velit! Nisi
+              quod inventore, ullam veniam vitae repellendus sint saepe dolore
+              voluptatum corrupti velit consectetur.
+            </p>
+            <p class="clients__opinion">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem
+              dolores quidem beatae veniam necessitatibus molestias velit! Nisi
+              quod inventore, ullam veniam vitae repellendus sint saepe dolore
+              voluptatum corrupti velit consectetur.
+            </p>
+          </div>
+        </div>
+      </section>
+      <section class="contact section" id="contact">
+        <div>
+          <p class="contact__description">
+            Feel free to reach out to me any time. I prefer to talk over email,
+            especially since we may be a few time zones away.
+          </p>
+
+          <a href="mailto:desiiigner01@gmail.com" class="contact__email"
+            >desiiigner01@gmail.com</a
+          >
+          <div class="contact__socials">
+            <a
+              href="https://www.facebook.com/desiiigner01"
+              class="contact__social"
+            >
+              <img src="brand/facebook.svg" alt="facebook" /></a
+            ><a href="https://twitter.com/DESIIIGNER5" class="contact__social"
+              ><img src="brand/twitter.svg" alt="twitter" /></a
+            ><a
+              href="https://www.youtube.com/channel/UCF8DnxQzVM26G4BC6Y8pgPg"
+              class="contact__social"
+              ><img src="brand/youtube.svg" alt="youtube" /></a
+            ><a
+              href="https://www.instagram.com/desiiigner1/"
+              class="contact__social"
+              ><img src="brand/instagram.svg" alt="instagram" /></a
+            ><a
+              href="https://www.linkedin.com/in/ammar-yasser-8672ba188/"
+              class="contact__social"
+              ><img src="brand/linkedin.svg" alt="linkedin" /></a
+            ><a href="https://github.com/AMMARYASSER01" class="contact__social"
+              ><img src="brand/github.svg" alt="github"
+            /></a>
+          </div>
+        </div>
+        <div class="contact__formcontent">
+          <h2 class="h2-heading">
+            Let's Work<br />
+            Together!
+          </h2>
+          <form action="results.html">
+            <div class="contact__inputs">
+              <input
+                class="contact__input"
+                type="text"
+                placeholder="Name"
+                required
+              />
+              <input type="tel" class="contact__input" placeholder="Phone No."
+              name="tel" required " />
+            </div>
+            <textarea
+              class="contact__input contact__textarea"
+              name="description"
+              id="description"
+              rows="1"
+              placeholder="Your Message"
+              required
+            ></textarea>
+            <input class="contact__button" type="submit" value="Send Message" />
+          </form>
+        </div>
+      </section>
+      <footer class="footer">© 2022 by ammar yasser</footer>
+    </div>
+  </body>
+</html>
